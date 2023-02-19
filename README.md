@@ -1,16 +1,28 @@
-### Hi there 👋
-
-<!--
-**bothomthit/bothomthit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+//buithinhuquynh
+//1050080073
+package javabt1;
+import java.util.Scanner;
+public class Javabt1 {
+    public static void main(String[] args) {
+    float a, b, x;
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Moi nhap a: ");
+        a = sc.nextInt();
+        System.out.println("Moi nhap b: ");
+        b = sc.nextInt();
+        if (a==0){
+            if(b==0){
+                System.out.println("Phuong trinh vo so nghiem");
+            }
+            else{
+                System.out.println("Phuong trinh vo nghiem");
+            }
+        }
+        else{
+            x = -b/a;
+            System.out.println("Phuong trinh co nghiem x ="+x);
+        }
+    }
+    
+    
+}
